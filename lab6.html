@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lab6</title>
+    </head>
+<body>
+	<form>
+		<label for="firstName">First Name:</label><br>
+		<input type="text" id="firstName" name="firstName"><br>
+
+		<label for="lastName">Last Name:</label><br>
+		<input type="text" id="lastName" name="lastName"><br>
+
+		<label for="mark1">Mark 1:</label><br>
+		<input type="number" id="mark1" name="mark1"><br>
+
+		<label for="mark2">Mark 2:</label><br>
+		<input type="number" id="mark2" name="mark2"><br>
+
+		<label for="mark3">Mark 3:</label><br>
+		<input type="number" id="mark3" name="mark3"><br>
+
+        <span id="error"></span><br>
+
+        <button type="button" onclick="validateTxt()">Validate</button>
+        <button type="button" onclick="printResult()">Print Result</button>
+
+        <p id="result"></p>
+
+        <script src="main.js"></script>
+    </form>
+</body>
+</html>
